@@ -1,0 +1,17 @@
+{
+  "name": "shapes-a",
+  "version": "1.0.0",
+  "description": "An application to allow the user to generate a simple logo for their projects for free.",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "Grirvy",
+  "license": "MIT",
+  "dependencies": {
+    "enquirer": "^2.4.1",
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.2.12",
+    "jest": "^29.7.0"
+  }
+}
