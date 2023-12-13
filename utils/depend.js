@@ -2,9 +2,10 @@ const dependendencies = [
    // inquirer = require('inquirer'),
     { prompt } = require('enquirer'),
     fs = require('fs'),
-    jest = require('jest'),
+    { execSync } = require('child_process'),
     questions = require('./quest.js'),
-    { Circle, Square, Triangle } = require ('../lib/shapes.js'),
+    Shapes = require('../lib/shapes.js'),
+    spawnSVG = require('./spawn.js'),
 
 ];
 

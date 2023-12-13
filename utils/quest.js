@@ -1,20 +1,24 @@
 const questions = [
     {
       type: 'input',
-      name: 'color',
+      name: 'text',
+      message: 'What text do you want?',
+    },
+    {
+      type: 'input',
+      name: 'textColor',
       message: 'What color do you want the text?',
     },
     {
       type: 'select',
-      name: 'logo',
-      message: 'What logo do you want?',
+      name: 'shape',
+      message: 'What shape do you want?',
       choices: ['Circle', 'Square', 'Triangle'],
     },
     {
       type: 'input',
-      name: 'logo color',
-      message: 'What color do you want the logo?',
-
+      name: 'shapeColor',
+      message: 'What color do you want the shape?',
     },
     {
       type: 'confirm',
