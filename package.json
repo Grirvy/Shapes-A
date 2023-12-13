@@ -4,11 +4,13 @@
   "description": "An application to allow the user to generate a simple logo for their projects for free.",
   "main": "index.js",
   "scripts": {
-    "test": "index.js"
+    "test": "jest",
+    "script": "index.js"
   },
   "author": "Grirvy",
   "license": "MIT",
   "dependencies": {
+    "child_process": "^1.0.2",
     "enquirer": "^2.4.1",
     "fs": "^0.0.1-security",
     "inquirer": "^9.2.12",
