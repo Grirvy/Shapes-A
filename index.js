@@ -22,8 +22,8 @@ prompt(questions)
 
     // Log that the logo has been generated
     console.log('Logo generated:\n', generatedLogo);
-  })
-  .catch((error) => {
-    console.error('Error:', error);
-  });
+   })
+   .catch((error) => {
+     console.error('Error:', error);
+   });
     
